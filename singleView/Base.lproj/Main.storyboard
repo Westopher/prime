@@ -33,6 +33,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2hO-W0-iyV">
+                                <rect key="frame" x="186" y="102" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -40,7 +46,9 @@
                             <constraint firstItem="LfU-Bs-Quc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qce-kB-Nb9"/>
                             <constraint firstItem="LfU-Bs-Quc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="ch2-3y-nK1"/>
                             <constraint firstItem="LfU-Bs-Quc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="msM-gu-hj8"/>
+                            <constraint firstItem="2hO-W0-iyV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ni6-e7-awi"/>
                             <constraint firstItem="2fa-RP-5tQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o02-zJ-ize"/>
+                            <constraint firstItem="2hO-W0-iyV" firstAttribute="top" secondItem="LfU-Bs-Quc" secondAttribute="bottom" constant="36" id="o8b-dd-ocY"/>
                         </constraints>
                     </view>
                 </viewController>
