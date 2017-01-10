@@ -47,8 +47,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8vD-JU-1l5">
                                 <rect key="frame" x="169" y="227" width="76" height="30"/>
                                 <state key="normal" title="Is It Prime?"/>
+                                <connections>
+                                    <action selector="isItPrime:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0CO-zg-WaY"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbS-OF-t8e">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbS-OF-t8e">
                                 <rect key="frame" x="20" y="265" width="374" height="57"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="57" id="5Te-GL-90Z"/>
@@ -74,6 +77,10 @@
                             <constraint firstItem="nuX-qJ-VAa" firstAttribute="top" secondItem="egr-M3-LMA" secondAttribute="bottom" constant="25" id="wHd-UV-GLK"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="numberTextField" destination="a5t-7O-HGV" id="1FS-v6-dz5"/>
+                        <outlet property="resultLabel" destination="zbS-OF-t8e" id="Z2l-sJ-lqA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
